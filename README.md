@@ -98,6 +98,7 @@ The probability of two random people matching is $1.1*10^{-6}$
 Expressed as a fraction, this is approximately $\frac{1}{900000}$
 
 The number needed for the probability of a match to be approximately 50% is (using the shortcut):
+
 $$1.2 * \sqrt{900000} = 1138.42$$
 
 Which, to me at least, is surprisingly small.
