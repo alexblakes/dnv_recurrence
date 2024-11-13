@@ -27,7 +27,9 @@ What is the probability that the first variant in person B **does** match one of
 
 $$\frac{100\ opportunities\ to\ match}{(3,000,000,000bp*3\ possible\ SNVs)}=1.1 * 10^{-8}$$
 
-The probability that this variant **does not match** one of the variants in person A is 1 minus this number: $$ 1 - 1.1 * 10^{-8} $$
+The probability that this variant **does not match** one of the variants in person A is 1 minus this number:
+
+$$1 - 1.1 * 10^{-8}$$
 
 ### The second variant
 
