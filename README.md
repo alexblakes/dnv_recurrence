@@ -53,6 +53,7 @@ $$(1 - 1.1 * 10^{-8})^{100}=0.9999989$$
 So a match between any two people is highly unlikely.
 
 Conversely, the probability that at least one of the variants matches is 1 minus this number:
+
 $$1-0.9999989 = 1.1*10^{-6}$$
 
 ## Extending from two individuals to a large cohort
