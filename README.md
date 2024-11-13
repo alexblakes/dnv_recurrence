@@ -7,8 +7,9 @@ That's the haploid genome length, but for this exercise we don't care which alle
 
 **There are 3 possible SNVs at each position**
 
-**Each individual carries 100 *de novo* SNVs**
-Just to make the maths straightforward.
+**Each individual carries 100 *de novo* SNVs** (just to make the maths straightforward.)
+
+**Mutation rate is uniform, all detected variants are real, etc...**
 
 ## The simple case: two individuals
 How likely is it that two unrelated individuals carry a matching *de novo* variant?
@@ -50,9 +51,7 @@ What is the probability that none of the 100 variants in person B matches any of
 
 $$(1 - 1.1 * 10^{-8})^{100}=0.9999989$$
 
-So a match between any two people is highly unlikely.
-
-Conversely, the probability that at least one of the variants matches is 1 minus this number:
+So a match between any two people is highly unlikely; the probability that at least one of the variants matches is 1 minus this number:
 
 $$1-0.9999989 = 1.1*10^{-6}$$
 
