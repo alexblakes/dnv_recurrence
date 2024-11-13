@@ -83,6 +83,7 @@ We already know the probability of **not making a match** between any two random
 $$(1 - 1.1 * 10^{-8})^{100}=0.9999989$$
 
 By extension, the probability of not matching across anyone in this cohort is:
+
 $$ 0.9999989^{84493500} = 1.69 * 10^{-41}$$
 
 I.e. very small indeed!
