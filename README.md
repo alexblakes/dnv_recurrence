@@ -65,6 +65,7 @@ We already have the probability that any two random people will share at least o
 So we need to ask how many different comparisons can we make between two individuals in a cohort of 13,000 people?
 
 This is 13,000 *choose* 2:
+
 $$ _{13,000}C_{2} = \frac{13000!}{2! * (13000-2)!} = 84493500 $$
 
 I.e. we need to make 84,493,500 pair-wise comparisons.
@@ -77,7 +78,9 @@ This is the **expected number** of matches.
 (This is not quite the same as the number of *de novo* SNVs we expect to see in >1 individual... But it's not far off.)
 
 ## The probability of observing a match in a large cohort
-We already know the probability of **not making a match** between any two random individuals ($(1 - 1.1 * 10^{-8})^{100}=0.9999989$)
+We already know the probability of **not making a match** between any two random individuals:
+
+$$(1 - 1.1 * 10^{-8})^{100}=0.9999989$$
 
 By extension, the probability of not matching across anyone in this cohort is:
 $$ 0.9999989^{84493500} = 1.69 * 10^{-41}$$
