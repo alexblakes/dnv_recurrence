@@ -66,7 +66,7 @@ So we need to ask how many different comparisons can we make between two individ
 
 This is 13,000 *choose* 2:
 
-$$<sub>13,000</sub>C<sub>2</sub> = \frac{13000!}{2! * (13000-2)!} = 84493500$$
+$$13,000 choose 2 = \frac{13000!}{2! * (13000-2)!} = 84493500$$
 
 I.e. we need to make 84,493,500 pair-wise comparisons.
 To find the **expected number** of matches, we multiply the probability of a match between any two individuals, by the number of pairwise comparisons.
