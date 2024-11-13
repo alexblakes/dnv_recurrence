@@ -25,7 +25,7 @@ We can break this down for each of the 100 variants, and then combine the probab
 ### The first variant
 What is the probability that the first variant in person B **does** match one of the variants in person A?
 
-$\frac{100\ opportunities\ to\ match}{(3,000,000,000bp*3\ possible\ SNVs)}=1.1 * 10^{-8}$
+$$\frac{100\ opportunities\ to\ match}{(3,000,000,000bp*3\ possible\ SNVs)}=1.1 * 10^{-8}$$
 
 The probability that this variant **does not match** one of the variants in person A is 1 minus this number.
 $$ 1 - 1.1 * 10^{-8} $$
@@ -41,7 +41,7 @@ But with numbers at this scale, this doesn't matter.)
 ### Combining the probabilities of the first two variants
 What is the probability that neither the first nor the second variant in person B matches either of the variants in person A?
 
-$$ (1 - 1.1 * 10^{-8})  * (1 - 1.1 * 10^{-8}) = (1 - 1.1 * 10^{-8})^{2} = 0.99999998$$
+$$(1 - 1.1 * 10^{-8})  * (1 - 1.1 * 10^{-8}) = (1 - 1.1 * 10^{-8})^{2} = 0.99999998$$
 
 ### All 100 variants
 What is the probability that none of the 100 variants in person B matches any of the variants in person A?
