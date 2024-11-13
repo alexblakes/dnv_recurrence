@@ -9,7 +9,7 @@ That's the haploid genome length, but for this exercise we don't care which alle
 
 **Each individual carries 100 *de novo* SNVs** (just to make the maths straightforward.)
 
-**Mutation rate is uniform, all detected variants are real, etc...**
+**Mutation rate is uniform, all detected variants are real, the whole genome is amenable to sequencing, etc...**
 
 ## The simple case: two individuals
 How likely is it that two unrelated individuals carry a matching *de novo* variant?
@@ -57,7 +57,7 @@ $$1-0.9999989 = 1.1*10^{-6}$$
 
 ## Extending from two individuals to a large cohort
 The GEL *de novo* cohort has around 13,000 trios.
-What is the probability that a *de novo* variant will be shared by any two offspring in the cohort (bearing in mind lots of assumptions.)
+What is the probability that a *de novo* variant will be shared by any two offspring in the cohor? (Bear in mind we make lots of assumptions!)
 
 We already have the probability that any two random people will share at least one *de novo* SNV ($1.1*10^{-6}$).
 
