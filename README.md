@@ -34,6 +34,7 @@ $$1 - 1.1 * 10^{-8}$$
 ### The second variant
 
 Likewise, the probability that the second variant in person B **does not** match one of the variants in person A is:
+
 $$ 1 - 1.1 * 10^{-8} $$
 
 (Technically, because the 100 SNVs are assumed to be different, we should minus one from the denominator in the equation above.
